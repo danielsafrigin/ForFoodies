@@ -3,7 +3,6 @@ package com.forfoodies.api.dao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.forfoodies.api.models.Role;
 import com.forfoodies.api.repositories.RoleRepository;
 
 @Component

@@ -29,19 +29,19 @@ public class PostController {
 	
 	@PostMapping("/deleteMyPost")
 	public String deleteMyPost(@RequestParam Map<String, String> body, @RequestHeader(value = "token") String token) {
-		//createPost(token, body.get("body"));
+		//TODO
 		return null;
 	}
 	
 	@PostMapping("/deleteAnyPost")
 	public String deleteAnyPost(@RequestParam Map<String, String> body, @RequestHeader(value = "token") String token) {
-		//createPost(token, body.get("body"));
+		//TODO
 		return null;
 	}
 	
 	@PostMapping("/getAllPosts")
 	public String getAllPosts(@RequestParam Map<String, String> body, @RequestHeader(value = "token") String token) {
-		//createPost(token, body.get("body"));
+		//TODO
 		return null;
 	}
 	
